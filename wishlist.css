@@ -1,0 +1,131 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* =========================================== Navbar Section =========================================== */
+#Nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    list-style-type: none;
+    overflow-x: hidden; 
+    
+}
+#Nav .Nav1 img{
+    width: 50;
+    height: 50px;
+}
+
+#Nav .Nav2 a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+#Nav .Nav3 i {
+    padding-right: 26px;
+    color: black;
+    font-size: 20px;
+}
+/* ========================= Login & Reg. ========================= */
+#LF{
+    margin-top: 100px;
+}
+#HA{
+    margin-top: 20px;
+}
+#HA a{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+/* ============================================= */
+/* =========================== imghead Section ======================== */
+#imghead{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    overflow-x: hidden;
+    margin-top: 50px;
+ }
+ #imghead img{
+     width: 310px;
+     height: 286px;
+     margin-left: 0px;
+     overflow-x: hidden;
+ }
+#imghead img:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+}
+#zoom{
+    border: 2px solid white;
+    overflow-x: hidden;
+    width: 280px;
+    height: 300px;
+    overflow-x: hidden;
+    padding-left: 0px;
+}
+/* ============================= Imgword for imghead ============================== */
+#imgword{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 120px;
+    
+}
+/* ========================================== Footer Section ============================================ */
+
+#footer .part1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#logo2 i{
+    font-size: 24px;
+    margin-top: 60px;
+    padding-left: 10px;
+    color: black;
+}
+#logo2 i:hover{
+    scale: 1.3;
+    transition: all 0.5s;
+}
+#footer{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.part2 .B{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#footer .part2{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.part2 a{
+    /* border: 2px solid black; */
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 100px;
+    padding-bottom: 0px;  
+}
+
+
+
+
+
+
